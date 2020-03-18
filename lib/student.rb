@@ -1,14 +1,10 @@
 class Student < User
 attr_accessor :knowledge
 
-KNOWLEDGE = []
 
   def initilaize
+    @knowledge = []
   end 
-  
-  def new
-    @initialize
-  end
   
   def learn(knowledge)
     KNOWLEDGE.pop(knowledge)
