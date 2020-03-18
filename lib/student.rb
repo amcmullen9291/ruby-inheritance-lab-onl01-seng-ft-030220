@@ -8,7 +8,7 @@ def initilaize
 end 
 
 def new
-  @knowledge = []
+  KNOWLEDGE = []
 end
 
 end
