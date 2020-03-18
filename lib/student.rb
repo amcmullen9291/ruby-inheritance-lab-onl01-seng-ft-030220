@@ -4,11 +4,11 @@ attr_accessor :knowledge
 KNOWLEDGE = []
 
 def initilaize
-
+  @KNOWLEDGE
 end 
 
 def new
-  KNOWLEDGE = []
+  @initialize
 end
 
 end
