@@ -15,7 +15,7 @@ KNOWLEDGE = []
   end 
   
   def knowledge
-    self.KNOWLEDGE 
+    KNOWLEDGE.self
   end 
 
 end
