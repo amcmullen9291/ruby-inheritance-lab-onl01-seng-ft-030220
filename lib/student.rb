@@ -7,7 +7,7 @@ attr_accessor :knowledge
   end 
   
   def learn(knowledge)
-    self.knowledge.pop(knowledge)
+    self.knowledge << knowledge
   end 
 
 end
